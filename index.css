@@ -94,11 +94,11 @@ h1.heading {
 }
 
 section {
-    padding: 60px 20px;
+    margin: 0;
+    padding: 0;
     scroll-margin-top: 50px;
-    margin: 4rem 0; /* Center the section */
-    /* border-bottom: 1px solid rgb(36, 35, 35);; */
 }
+
 
 #about p {
     margin: 0 auto; 
@@ -256,6 +256,10 @@ section {
 }
 
 footer {
+    margin-top: 7rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     color: white;
     background-color: #1c1c1d;
 }

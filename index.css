@@ -309,9 +309,9 @@ footer .social-icons a:hover {
 }
 
 #contact p {
-    max-width: 600px; /* Match the form width */
-    margin: 0 auto 50px; /* Center align and add spacing below */
-    text-align: left; /* Ensure the text aligns to the left */
+    max-width: 600px; 
+    margin: 0 auto 50px; 
+    text-align: left; 
 }
 
 form {

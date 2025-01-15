@@ -245,6 +245,10 @@ section {
         flex-direction: column; /* Stack items vertically on smaller screens */
     }
 
+    .project-info {
+        left: 2.5rem;
+    }
+
     .project-info, 
     .project-box > div:nth-child(2) {
         max-width: 100%; /* Allow full width for small screens */

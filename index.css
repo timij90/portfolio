@@ -501,7 +501,7 @@ button:focus {
         font-size: 0.9rem;
     } */
 
-    ul {
+    ul.list-group {
         display: flex;
         flex-wrap: wrap; /* allows wrapping if too long */
         justify-content: center; /* center items */
@@ -509,7 +509,7 @@ button:focus {
         margin-bottom: 20px;
     }
 
-    ul li {
+    li.list-group-item {
         display: inline-block;
         margin: 0; /* reset margin */
     }
@@ -538,7 +538,7 @@ button:focus {
         height: 20px;
     }
 
-    ul {
+    ul.list-group {
         flex-direction: column; /* stack vertically if too small */
         align-items: center;
     }

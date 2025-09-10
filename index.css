@@ -492,13 +492,26 @@ button:focus {
         height: auto;
     }
 
-    ul {
+    /* ul {
         padding-left: 20px; 
         margin-bottom: 20px; 
     }
 
     li {
         font-size: 0.9rem;
+    } */
+
+    ul {
+        display: flex;
+        flex-wrap: wrap; /* allows wrapping if too long */
+        justify-content: center; /* center items */
+        gap: 10px; /* spacing between items */
+        margin-bottom: 20px;
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 0; /* reset margin */
     }
 
     #svg {
@@ -523,6 +536,11 @@ button:focus {
     #svg {
         width: 20px;
         height: 20px;
+    }
+
+    ul {
+        flex-direction: column; /* stack vertically if too small */
+        align-items: center;
     }
 }
 
